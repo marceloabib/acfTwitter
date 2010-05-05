@@ -1,0 +1,47 @@
+#twitter {margin-left:500px;width:300px;font-family:Arial;font-size:12px;padding:0px;border: 0px;}
+#twitter h2 {font-size:15px;background-color:#EDEDED;padding:4px;margin:0px;}
+#twitter ul{padding:0px;margin:0px;}
+#twitter li{border-bottom: 1px solid #ccc;padding:10px;list-style-type:none;list-style-position:outside;margin-bottom:0px;}
+#twitter #twitter-footer {text-align:right;background-color:#EDEDED;padding:4px;}
+
+#twitter a.tweet-profile {text-decoration: none;color:#0057D1; font-weight:bold;}
+#twitter a.tweet-profile:link, a.tweet-hash:visited, a.tweet-hash:active {text-decoration: none;}
+#twitter a.tweet-profile:hover {text-decoration: underline;}
+
+#twitter a.tweet-date {text-decoration: none; color: #5C5C5C;}
+#twitter a.tweet-date:hover {text-decoration: underline; color: #104794;}
+
+#twitter a.tweet-hash {color: #000;font-weight:bold;}
+#twitter a.tweet-hash:link, a.tweet-hash:visited, a.tweet-hash:active {text-decoration: none;}
+#twitter a.tweet-hash:hover {text-decoration: underline;}
+
+#twitter a.tweet-friend {color: #003F96;font-weight:bold;text-decoration: none;}
+#twitter a.tweet-friend:link, a.tweet-hash:visited, a.tweet-hash:active {text-decoration: none;}
+#twitter a.tweet-friend:hover {text-decoration: underline;}
+
+#twitter .tweet-retweet {
+  background-image: url("../images/sprite-retweet.png");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  padding-left: 16px;
+  text-decoration: none;
+  color:#0057D1;
+}
+#twitter .tweet-retweet:hover {
+  background-image: url("../images/sprite-retweet.png");
+  background-repeat: no-repeat;
+  background-position: 0px -18px;
+  text-decoration: underline;
+}
+
+#twitter #retweet-panel {float:right;}
+
+#twitter a {text-decoration: none;color:#0057D1;}
+#twitter a:link, a.tweet-hash:visited, a.tweet-hash:active {text-decoration: none;}
+#twitter a:hover {text-decoration: underline;}
+
+#twitter .selTweet {background-color: #F7F7F7;}
+
+#twitter .tweet-twitpic-box {position:absolute;z-index:1000;margin: 0 100px;}
+#twitter .tweet-twitpic-img {border:1px solid #000;padding:1px;background-color:#ccc;}
+
